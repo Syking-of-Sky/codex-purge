@@ -1,0 +1,21 @@
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.DS_Store
+Thumbs.db
+
+*.log
+.idea/
+.vscode/
+*.swp
+
+# apply 产生的运行态产物（属于用户本机，不进仓库）
+catalog.json
+catalog.reverted.json
+catalog.json.sentinel-bak
+state.json
+backups/
+instructions.md
+guardian.md

@@ -1,0 +1,32 @@
+{
+  "name": "codex-purge",
+  "version": "0.1.0",
+  "description": "Codex 指令权威性清洗：接管 model catalog、guardian 分类器与 auto-review 策略，可逆、可验证、可回滚",
+  "type": "module",
+  "main": "lib/index.js",
+  "bin": {
+    "codex-purge": "bin/codex-purge.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md"
+  ],
+  "scripts": {
+    "status": "node bin/codex-purge.js --status",
+    "verify": "node bin/codex-purge.js --verify"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "codex",
+    "codex-cli",
+    "model-catalog",
+    "guardian",
+    "auto-review",
+    "instructions",
+    "purge"
+  ],
+  "license": "MIT"
+}
