@@ -11,7 +11,7 @@ Codex 指令权威性清洗。做法和 `dsh-purge` 一样：找出宿主真正�
 零依赖，只需要 Node 18+ 和一个已登录的 Codex。
 
 ```bash
-git clone https://github.com/YanKuiShen/codex-purge.git
+git clone https://github.com/Syking-of-Sky/codex-purge.git
 cd codex-purge
 node bin/codex-purge.js --status
 ```

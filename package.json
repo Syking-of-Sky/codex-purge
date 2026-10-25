@@ -28,5 +28,13 @@
     "instructions",
     "purge"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syking-of-Sky/codex-purge.git"
+  },
+  "homepage": "https://github.com/Syking-of-Sky/codex-purge#readme",
+  "bugs": {
+    "url": "https://github.com/Syking-of-Sky/codex-purge/issues"
+  }
 }
