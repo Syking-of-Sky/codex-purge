@@ -1,6 +1,6 @@
 # codex-purge
 
-> Takes over how Codex is instructed: rewrites the model catalog's `model_messages`, the Guardian classifier, and the auto-review policy. Reversible, verifiable, restorable. (中文文档见下)
+[English](README.en.md) | 中文
 
 Codex 指令权威性清洗。做法和 `dsh-purge` 一样：找出宿主真正读取的那一层，定点改写，保留备份与哈希，可验证、可回滚。
 
